@@ -1,13 +1,18 @@
 {
   "name": "brevis",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "0.0.1",
+  "description": "Brevity on async http microservice development",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Dhi Aurrahman <dio@hooq.tv>",
+  "license": "MIT",
+  "files": [
+    "build/bin/brevis"
+  ],
+  "bin": {
+    "brevis": "./build/bin/brevis"
+  },
   "dependencies": {
     "babel-plugin-module-alias": "^1.2.0",
     "babel-plugin-syntax-async-functions": "^6.5.0",
@@ -22,5 +27,21 @@
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-babel": "^6.1.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/breviarium/dev.git"
+  },
+  "keywords": [
+    "brevity",
+    "brevis",
+    "async",
+    "http",
+    "microservice",
+    "development"
+  ],
+  "bugs": {
+    "url": "https://github.com/breviarium/dev/issues"
+  },
+  "homepage": "https://github.com/breviarium/dev#readme"
 }
